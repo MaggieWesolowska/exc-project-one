@@ -130,7 +130,7 @@ p {
 }
 .rabbit {
   position: absolute;
-  left: 0px;
+  left: 50vw;
   bottom: 55px;
   fill: var(--color-main);
   stroke: var(--dark-color);
