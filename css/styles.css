@@ -59,7 +59,7 @@ p {
   left: 0%;
   width: 90%;
   height: 3px;
-  background-color: var(--color-main);
+  background-color: #99B898;
   border-radius: 2px;
   width: 0;
   transition: width 0.5s;
@@ -134,7 +134,7 @@ p {
   bottom: 55px;
   fill: var(--color-main);
   stroke: var(--dark-color);
-  animation: rabbit 15s cubic-bezier(0.07, 0.81, 0.94, 0.75) infinite;
+  /* animation: rabbit 15s cubic-bezier(0.07, 0.81, 0.94, 0.75) infinite; */
 }
 @keyframes spinSun {
     0% {
