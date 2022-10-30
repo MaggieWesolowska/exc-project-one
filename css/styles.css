@@ -132,8 +132,7 @@ p {
   position: absolute;
   left: 50vw;
   bottom: 55px;
-  fill: var(--color-main);
-  stroke: var(--dark-color);
+  stroke: 8px;
   /* animation: rabbit 15s cubic-bezier(0.07, 0.81, 0.94, 0.75) infinite; */
 }
 @keyframes spinSun {
@@ -192,7 +191,7 @@ p {
   }
   @keyframes rabbit {
     0% {
-      transform: translateX(0);
+      transform: translateX(0vw);
     }
     100% {
       transform: translateX(110vw);
