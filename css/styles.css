@@ -10,12 +10,6 @@ body {
     height: 100vh;
     font-family: 'Domine', serif;
 }
-h1,
-h3,
-h4,
-p {
-    margin: 0;
-}
 .body-wrapper {
   width: auto;
   height: 100vh;
@@ -134,6 +128,11 @@ p {
   bottom: 55px;
   stroke: 8px;
   /* animation: rabbit 15s cubic-bezier(0.07, 0.81, 0.94, 0.75) infinite; */
+}
+.footer-wrapper {
+  background: var(--dark-color);
+  width: 110%;
+  height: 3vw;
 }
 @keyframes spinSun {
     0% {
