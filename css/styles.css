@@ -2,7 +2,11 @@
     --color-main: #FECEA8;
     --dark-color: #2A363B;
 }
-
+h3,
+text {
+  margin: 0;
+  padding: 0;
+}
 body {
     margin: 0;
     padding: 0;
@@ -18,6 +22,7 @@ body {
 .header-wrapper {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 40px;
     width: 100%;
     height: 250px;
@@ -25,11 +30,13 @@ body {
     background: #2A363B;
 }
 .main-title {
+   display: block;
    color: var(--color-main);
    font-size: 30px;
    letter-spacing: 0.03em;
 }
 .follow-link {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
@@ -68,7 +75,7 @@ body {
     display: flex;
     justify-content: center;
     border: 5px outset var(--color-main);
-    padding: 10px; 
+    padding: 15px; 
     border-radius: 10px;
     box-shadow: 7px 10px 5px 0px rgba(153,184,152,0.81);
     -webkit-box-shadow: 7px 10px 5px 0px rgba(153,184,152,0.81);
@@ -100,7 +107,7 @@ body {
    position: absolute;
    bottom: 0;
    width: 100%;
-   height: 60px;
+   height: 5vw;
    background: linear-gradient(
     90deg,
     #99B898 25%,
@@ -129,10 +136,22 @@ body {
   stroke: 8px;
   /* animation: rabbit 15s cubic-bezier(0.07, 0.81, 0.94, 0.75) infinite; */
 }
+.decoration {
+  position: absolute;
+  right: 25vh;
+  bottom: 10vw;
+}
 .footer-wrapper {
   background: var(--dark-color);
   width: 110%;
-  height: 3vw;
+  height: 5vw;
+}
+text {
+  display: block;
+  padding: 15px;
+  height: 1vw;
+  color: var(--color-main);
+  font-weight: 700;
 }
 @keyframes spinSun {
     0% {
