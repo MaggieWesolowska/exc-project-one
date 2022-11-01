@@ -24,7 +24,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 40px;
-    width: 100%;
+    width: 110%;
     height: 250px;
     padding: 20px;
     background: #2A363B;
@@ -139,7 +139,19 @@ body {
 .decoration {
   position: absolute;
   right: 25vh;
-  bottom: 10vw;
+  bottom: -5px;
+  right: 0vw;
+  box-shadow: 7px 10px 5px 0px rgba(153,184,152,0.81);
+    -webkit-box-shadow: 7px 10px 5px 0px rgba(153,184,152,0.81);
+    -moz-box-shadow: 7px 10px 5px 0px rgba(153,184,152,0.81);
+}
+.decoration-two {
+  position: absolute;
+  bottom: -5px;
+  left: 0vw;
+    box-shadow: 7px 10px 5px 0px rgba(153,184,152,0.81);
+    -webkit-box-shadow: 7px 10px 5px 0px rgba(153,184,152,0.81);
+    -moz-box-shadow: 7px 10px 5px 0px rgba(153,184,152,0.81);
 }
 .footer-wrapper {
   background: var(--dark-color);
@@ -152,6 +164,20 @@ text {
   height: 1vw;
   color: var(--color-main);
   font-weight: 700;
+}
+.button {
+  font-size: 25px;
+  font-weight: 500;
+  position: absolute;
+  left: 500px;
+  top: 50px;
+  cursor: pointer;
+  background-color: var(--dark-color);
+  color: var(--color-main);
+  height: 10vh;
+  width: 30vw;
+  border-radius: 10px;
+  border: 2px outset var(--color-main);
 }
 @keyframes spinSun {
     0% {
