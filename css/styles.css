@@ -138,9 +138,8 @@ body {
 }
 .decoration {
   position: absolute;
-  right: 25vh;
+  right: 50px;
   bottom: -5px;
-  right: 0vw;
   box-shadow: 7px 10px 5px 0px rgba(153,184,152,0.81);
     -webkit-box-shadow: 7px 10px 5px 0px rgba(153,184,152,0.81);
     -moz-box-shadow: 7px 10px 5px 0px rgba(153,184,152,0.81);
@@ -148,7 +147,7 @@ body {
 .decoration-two {
   position: absolute;
   bottom: -5px;
-  left: 0vw;
+  left: 50px;
     box-shadow: 7px 10px 5px 0px rgba(153,184,152,0.81);
     -webkit-box-shadow: 7px 10px 5px 0px rgba(153,184,152,0.81);
     -moz-box-shadow: 7px 10px 5px 0px rgba(153,184,152,0.81);
