@@ -105,7 +105,7 @@ ul {
   position: absolute;
   top: 40vh;
   left: 5vw;
-  animation: spincard-a__sun 15s linear infinite;
+  animation: spin-sun 15s linear infinite;
 }
 .card-a__beginning {
   display: flex;
@@ -190,7 +190,7 @@ ul {
   border-radius: 10px;
   border: 2px outset var(--color-main);
 }
-@keyframes spincard-a__sun {
+@keyframes spin-sun {
   0% {
     transform: rotate(0deg);
   }
