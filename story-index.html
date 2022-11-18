@@ -3,49 +3,89 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>Exercise</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-    <body class="body-wrapper">
-        <header class="header-wrapper">
-            <div class="pic">
-                 <img src="./images/white-rabbit.jpeg" alt="white-rabbit" width="200" height="=200">
-            </div>
-            <div class="header-border">
-                <div class="main-title">
-                    <h3>How Alice got to Wonderland</h3>
-                </div>
-            </div>
-            <div class="story-title">
-                <a class="follow-link" href="#">aka. wake up Sunshine</a>
-                <a class="follow-link" href="#">and other stories..</a>
-            </div>
-        </header>
-        <main class="main-wrapper">
-            <svg class="sun" width="200" height="200"><use href="./images/icons.svg#icon-sun"></use></svg>
-            <div class="grass"></div>
-            <div class="decoration">
-                <img src="./images/alice-land.jpeg" alt="alice-land" width="600" height="400">
-            </div>
-            <div class="decoration-two">
-                <img src="./images/alice-cat.jpeg" alt="alice-cat" width="300" height="300">
-            </div>
-            <svg class="bird" width="150" height="150"><use href="./images/bird-icon.svg#icon-bird1"></use></svg>
-            <button class="button" href="#">Follow the White Rabbit</button>
-            
-        </main>
-        <footer class="footer-wrapper">
-            <div>
-             <text>Made by MagsW</text>
-            </div>
-        </footer>
-    </body>
+  <body>
+    <header class="header">
+      <div class="header__img">
+        <img
+          src="./images/white-rabbit.jpeg"
+          alt="white-rabbit"
+          width="180"
+          height="=180"
+        />
+      </div>
+      <div class="header__border">
+        <div class="header__title">
+          <h1>How Alice got to Wonderland</h1>
+        </div>
+      </div>
+      <nav class="nav">
+        <a class="nav__link" href="#"
+          >Wake up Sunshine</a
+        >
+        <a class="nav__link" href="#"
+          >Mirror is an Illusion</a
+        >
+        <a class="nav__link" href="#"
+          >and other stories..</a
+        >
+      </nav>
+    </header>
+    <main class="main__background">
+      <section class="card-a">
+        <svg class="card-a__sun" width="250" height="250">
+          <use
+            href="./images/icons.svg#icon-card-a__sun"
+          ></use>
+        </svg>
+        <h2 class="card-a__title">The Beginning</h2>
+        <svg class="card-a__bird" width="150" height="150">
+          <use
+            href="./images/bird-icon.svg#icon-bird1"
+          ></use>
+        </svg>
+      </section>
+      <section class="card-b">
+        <div class="card-b__image">
+          <img
+            src="./images/alice-land.jpeg"
+            alt="alice-land"
+            width="600"
+            height="400"
+          />
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div>
+        <text class="footer__text">Created by MagsW</text>
+        <button class="button" href="#">
+          Follow the White Rabbit
+        </button>
+      </div>
+    </footer>
+  </body>
 </html>
