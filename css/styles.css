@@ -134,13 +134,8 @@ ul {
   background: var(--color-dark);
   margin: 0 50px;
   padding: 20px;
+  border: 5px inset var(--color-main);
   border-radius: 20px;
-  box-shadow: 7px 10px 5px 0px rgba(153, 184, 152, 0.81);
-  -webkit-box-shadow: 7px 10px 5px 0px
-    rgba(153, 184, 152, 0.81);
-  -moz-box-shadow: 7px 10px 5px 0px
-    rgba(153, 184, 152, 0.81);
-    background: var(--color-dark);
 }
 .card-a__text {
   color: var(--color-main);
@@ -156,12 +151,8 @@ ul {
   padding-bottom: 20px;
 }
 .card-b__image {
+  border: 5px outset var(--color-green);
   border-radius: 10px;
-  box-shadow: 7px 10px 5px 0px rgba(153, 184, 152, 0.81);
-  -webkit-box-shadow: 7px 10px 5px 0px
-    rgba(153, 184, 152, 0.81);
-  -moz-box-shadow: 7px 10px 5px 0px
-    rgba(153, 184, 152, 0.81);
 }
 .footer {
   display: flex;
