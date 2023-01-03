@@ -220,3 +220,36 @@ ul {
     background-position: 0% 50%;
   }
 }
+
+.modal-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background:rgba(153, 184, 152, 0.81);
+  transform: scale(1);
+  opacity: 1;
+  transition: transform .5s ease-in-out;
+}
+
+.modal-window {
+  position: relative;
+  box-sizing: border-box;
+  max-width: 90%;
+  background: var(--color-red);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 40px;
+}
+.is-hidden {
+  visibility: hidden;
+  pointer-events: none;
+  opacity: 0;
+  transform: scale(.5);
+}
+
