@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Home Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Questrial&display=swap" rel="stylesheet">  
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__group">
+          <a class="logo" href="#"><svg class="logo__icon" width="65" height="24">
+            <use href="./images/icons.svg#icon-logo"></use></svg></a>
+          <nav class="nav">
+            <li class="nav__item"><a class="nav__link" href="#">products</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">partners</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">blog</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">support</a></li>
+          </nav>
+          <a class="menu-btn" href="#">
+            <svg class="menu-btn__icon" width="64" height="64"><use href="./images/icons.svg#icon-menu-btn"></use></svg></a>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__group">
+            <div class="hero__accent">
+              <h1 class="title title--light">Secure
+                <span class="title title--dark">solution for protection</span>
+                <span class="title title--light">your crypto assets</span>
+              </h1>
+            </div>
+            
+            <h3 class="text text--dark">Storing offline your cold wallet<br/>recovery phrase.</h3>
+            <button class="button" type="button">What's recovery phrase?</button>
+          </div>
+        </div>
+      </section>
+      <section class="support">
+        <div class="container">
+          <div class="support__group">
+            <div class="sub-text">seed support</div>
+            <h3 class="support__text">Double-sided storage supports<br />
+              12, 18 and 24-word recovery phrase<br />
+              (BIP39 specifies only the first 4 letters<br />
+              are needed to identify each word)
+            </h3>
+          </div>
+          <div class="support__accent">
+            <img class="support__image"
+              src="./images/support/support@1.png"
+              srcset="./images/support/support@2.png 2x"
+              alt="case schematics"
+              width="335">
+          </div>
+        </div>
+      </section>
+      <section class="products">
+        <div class="container">
+          <ul class="products__list">
+            <li class="products__item">
+              <img class="products__image"
+              src="./images/products/products1@1.png"
+              srcset="./images/products/products1@2.png 2x"
+              alt="case proX"
+              width="473">
+              <h1 class="title title--dark">case<span class="title title--light"> X pro</span></h1>
+                <h3 class="text text--dark">Introducing the new model with
+                  <span class="text text--light">built in NFC chip</span>
+                  <span class="text text--dark">- case</span>
+                  <span class="text text--light">X pro.</span>
+                </h3>
+                <div class="sub-text">more info</div><a class="products__link" href="#">
+                  <svg class="products__icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-arrow"></use></svg></a>
+                <div class="sub-text">shop now</div><a class="products__link" href="#">
+                  <svg class="products__icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-arrow"></use></svg></a>
+            </li>
+            <li class="products__item">
+              <img class="products__image"
+              src="./images/products/products2@1.png"
+              srcset="./images/products/products2@2.png 2x"
+              alt="case pro"
+              width="400">
+              <h1 class="title title--dark">case<span class="title title--light"> X</span></h1>
+                <h3 class="text text--dark">Hodl your
+                  <span class="text text--light">recovery phrase</span>
+                  <span class="text text--dark">for hardware and software BIP39 wallets.</span>
+                </h3>
+                <div class="sub-text">more info</div><a class="products__link" href="#">
+                  <svg class="products__icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-arrow"></use></svg></a>
+                <div class="sub-text">shop now</div><a class="products__link" href="#">
+                  <svg class="products__icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-arrow"></use></svg></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="tech">
+        <div class="container">
+          <div class="tech__group">
+            <div class="tech__index">
+              <h2 class="tech__title">The
+                <span class="tech__title--light">next generation</span>
+                <span class="tech__title--dark">of recovery phrase</span>
+                <span class="tech__title--light">protection</span>
+              </h2>
+              <h3 class="tech__subtitle tech__subtitle--dark">The same technology that lets people<br />pay for things with their phones.</h3>
+              <button class="button" type="button">Learn more about NFC</button>
+            </div>
+            <ul class="tech__list">
+              <li class="tech__item">
+                <svg class="tech__icon" width="60" height="60">
+                  <use href="./images/icons.svg#icon-tech1"></use></svg>
+                <h3 class="tech__heading">Safe</h3>
+                <p class="tech__text">Store the Passphrase on your Cryp cloud account</p>
+              </li>
+              <li class="tech__item">
+                <svg class="tech__icon" width="60" height="60">
+                  <use href="./images/icons.svg#icon-tech2"></use></svg>
+                <h3 class="tech__heading">Reliable</h3>
+                <h6 class="tech__text">Don't be afraid to forget the place</h6>
+              </li>
+              <li class="tech__item">
+                <svg class="tech__icon" width="60" height="60">
+                  <use href="./images/icons.svg#icon-tech3"></use></svg>
+                <h3 class="tech__heading">Confidential</h3>
+                <h6 class="tech__text">Only you can connect to your recovery phrase wallet</h6>
+              </li>
+              <li class="tech__item">
+                <svg class="tech__icon" width="60" height="60">
+                  <use href="./images/icons.svg#icon-tech4"></use></svg>
+                <h3 class="tech__heading">Practical</h3>
+                <h6 class="tech__text">May leave contacts for third party</h6>
+              </li>
+            </ul>
+          </div>
+            <img class="tech__image"
+              src="./images/tech/tech@1.png"
+              srcset="./images/tech/tech@2.png 2x"
+              alt="case proX"
+              width="870">
+            <p class="sub-text">how it works?</p>
+            <h3 class="tech__subtitle">Simply bring your wallet up to your phone<br /> and wait a few seconds.</h3>
+        </div>
+      </section>
+      <section class="wallets">
+        <div class="container">
+          <h4 class="wallets__subtitle">compatible with</h4>
+          <ul class="wallets__list">
+            <li class="wallets__item">
+              <img class="tech__image"
+              src="./images/wallets/ledger.png"
+              srcset="./images/wallets/ledger@2.png 2x"
+              alt="ledger"
+              width="130">
+            </li>
+            <li class="wallets__item">
+              <img class="tech__image"
+              src="./images/wallets/trezor.png"
+              srcset="./images/wallets/trezor@2.png 2x"
+              alt="trezor"
+              width="130">
+            </li>
+            <li class="wallets__item">
+              <img class="tech__image"
+              src="./images/wallets/safepal.png"
+              srcset="./images/wallets/safepal@2.png 2x"
+              alt="safe pal"
+              width="130">
+            </li>
+            <li class="wallets__item">
+              <img class="tech__image"
+              src="./images/wallets/coolwallet.png"
+              srcset="./images/wallets/coolwallet@2.png 2x"
+              alt="ledger"
+              width="130">
+            </li>
+            <li class="wallets__item">
+              <img class="tech__image"
+              src="./images/wallets/keepkey.png"
+              srcset="./images/wallets/keepkey@2.png 2x"
+              alt="ledger"
+              width="130">
+            </li>
+            <li class="wallets__item">
+              <img class="tech__image"
+              src="./images/wallets/coldcard.png"
+              srcset="./images/wallets/coldcard@2.png 2x"
+              alt="ledger"
+              width="130">
+            </li>
+            <li class="wallets__item">
+              <img class="tech__image"
+              src="./images/wallets/cobo.png"
+              srcset="./images/wallets/cobo@2.png 2x"
+              alt="ledger"
+              width="130">
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="blog">
+       <div class="container">
+        <h2 class="blog__title blog__title--dark">Visit
+          <span class="blog blog__title--light">our blog</span>
+          <span class="blog blog__title--dark">to see more.</span>
+        </h2>
+        <div class="blog__subtitle">visit blog
+          <a class="blog__link" href="#">
+          <svg class="blog__icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-arrow"></use></svg>
+          </a></div>
+        <ul class="blog__list">
+          <li class="blog__item">
+            <img class="blog__image"
+              src="./images/blog/blog1.png"
+              srcset="./images/blog/blog1@2.png 2x"
+              alt="ajax box"
+              width="370">
+            <!-- <p class="sub-text">money</p>
+            <time class="blog__date" datetime="2021-05-20">20.05.2021</time>
+            <a class="blog__link" href="#">New possibilities for the security business with Ajax PSU</a> -->
+          </li>
+          <li class="blog__item">
+            <img class="blog__image"
+              src="./images/blog/blog2.png"
+              srcset="./images/blog/blog2@2.png 2x"
+              alt="ajax G4S"
+              width="370">
+            <!-- <p class="sub-text">technology</p>
+            <time class="blog__date" datetime="2021-05-20">20.05.2021</time>
+            <a class="blog__link" href="#">Cryp Systems partners with security giant G4S</a> -->
+          </li>
+          <li class="blog__item">
+            <img class="blog__image"
+              src="./images/blog/blog3.png"
+              srcset="./images/blog/blog3@2.png 2x"
+              alt="ajax logetel"
+              width="370">
+            <!-- <p class="sub-text">technology</p>
+            <time class="blog__date" datetime="2021-05-20">20.05.2021</time>
+            <a class="blog__link" href="#">Cryp Systems partners with security giant G4S</a> -->
+          </li>
+        </ul>
+       </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <div class="footer__index">
+            <h2>crypted by cryp.</h2>
+            <div>Copyright 2021 Cryp,<br /> All rights reserved.</div>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+          </div>
+          <div class="footer__group">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link">partners</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link">blog</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link">support</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link">products</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link">case x pro</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link">case x</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-socials">
+            <p class="footer__social-text">social media</p>
+            <ul class="footer-socials__list">
+              <li class="footer-socials__item">
+                <a href="#" target="_blank" rel="noreferrer noopener"><svg class="footer-socials__icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook"></use></svg>
+                </a>
+              </li>
+              <li class="footer-socials__item">
+                <a href="#" target="_blank" rel="noreferrer noopener"><svg class="footer-socials__icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram"></use></svg>
+                </a>
+              </li>
+              <li class="footer-socials__item">
+                <a href="#" target="_blank" rel="noreferrer noopener"><svg class="footer-socials__icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter"></use></svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__tabs">
+            <text>Newsletter about crypto</text>
+            <label class="footer__label"><input type="email"></label>
+            <button type="button"></button>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
