@@ -1,5 +1,5 @@
 :root {
-  --main-font: "Domine", serif;
+  --main-font: 'Domine', serif;
   --color-main: #fecea8;
   --color-dark: #2a363b;
   --color-red: #e84a5f;
@@ -69,7 +69,7 @@ ul {
   text-decoration: none;
 }
 .nav__link::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0%;
@@ -127,7 +127,7 @@ ul {
 }
 .down__title {
   position: relative;
-  margin: 40px 0;
+  margin: 40px auto;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -165,17 +165,19 @@ ul {
   padding: 15px 30px;
   text-indent: 50px;
 }
-.down__cat {
+/* .down__cat {
   background-image: url(./../images/cheeshire-cat.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 600px;
-  width: 100%;
-}
+  margin: 0 auto;
+  height: 500px;
+  width: 80%;
+} */
 .alice__decoration {
   display: block;
   text-align: center;
+  margin-top: 20px;
   padding-bottom: 20px;
   position: relative;
   overflow: hidden;
@@ -206,6 +208,7 @@ ul {
 .alice__decoration:hover .alice__overlay {
   transform: translateY(280%);
 }
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -275,6 +278,7 @@ ul {
 .modal-window {
   position: relative;
   box-sizing: border-box;
+  text-align: center;
   max-width: 90vw;
   background: var(--color-orange);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -282,11 +286,18 @@ ul {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   cursor: pointer;
-  padding: 40px;
+  padding: 40px 60px;
 }
 .is-hidden {
   visibility: hidden;
   pointer-events: none;
   opacity: 0;
   transform: scale(0.5);
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  line-height: 0;
 }
