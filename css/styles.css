@@ -7,12 +7,16 @@
   --color-green: #99b898;
 }
 body {
-  margin: 0;
-  padding: 0;
-  width: 100vw;
   font-family: var(--main-font);
-  width: auto;
 }
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+  max-width: 1200px;
+  width: 100%;
+}
+
 h1,
 h2,
 h3,
@@ -128,6 +132,7 @@ ul {
 .down__title {
   position: relative;
   margin: 40px auto;
+  width: 50%;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -150,12 +155,16 @@ ul {
   transform: scale(1.1);
 }
 .down__story {
+  display: block;
   text-align: center;
   background: var(--color-dark);
-  margin: 0 80px;
+  margin: 0 auto;
   padding: 20px;
   border: 5px inset var(--color-main);
   border-radius: 20px;
+  width: 90%;
+  height: 200px;
+  overflow: auto;
 }
 .down__text {
   color: var(--color-main);
