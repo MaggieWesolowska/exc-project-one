@@ -159,15 +159,7 @@ main {
   font-weight: 600;
   padding: 10px 20px;
 }
-/* .down__cat {
-  background-image: url(./../images/cheeshire-cat.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: 0 auto;
-  height: 500px;
-  width: 80%;
-} */
+
 .alice__decoration {
   display: block;
   text-align: center;
@@ -272,13 +264,14 @@ main {
   position: relative;
   box-sizing: border-box;
   text-align: center;
-  background: var(--color-orange);
+  background: var(--color-dark);
+  color: white;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   cursor: pointer;
-  padding: 40px 60px;
+  padding: 20px 40px;
 }
 .is-hidden {
   visibility: hidden;
@@ -287,8 +280,12 @@ main {
   transform: scale(0.5);
 }
 
+.modal-window__btn-close {
+  margin-left: 20px;
+}
+
 .footer__btn {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 button {
@@ -296,4 +293,8 @@ button {
   border: none;
   border-radius: 5px;
   line-height: 0;
+}
+
+p {
+  margin-top: 20px;
 }
